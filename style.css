@@ -8,33 +8,35 @@
 }
 
 .container{
-    width: 100%;
-    height: 100vh;
-  background-color: aliceblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+    display: flex;
+ 
 }
 .bodymass{
     background-color: #3a4452;
-    padding: 30px;
+    padding: 16px 10px;
     border-radius: 10px;
     color: white;
-    height: 65%;
-    width: 22%;
+    height: 80%;
+    width: 50%;
+    margin: 50px 30px 50px 30px;
+   
     
 }
 
 .bodymass input{
-    height: 35px;
+    height: 25px;
     width: auto;
     border-radius: 10px;
-    font-size: larger;
+    font-size: 20px;
+    padding: auto;
 }
 
 .bodymass button{
     align-items: center;
-    justify-content: center;
+    
     background-color: green;
     color: white;
     height:35px ;
@@ -42,12 +44,8 @@
     border-radius: 10px;
     box-shadow: white;
     cursor: pointer;
+    margin-left: 75px;
 }
 
-.container h1{
-   
-    color:navy;
-    margin-bottom: 700px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
-} 
+
+/*-------------css for responsive device-------------*/
