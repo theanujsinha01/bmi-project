@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family:'Poppins', sans-serif ;
+   box-sizing: border-box;
+   
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bodymass{
+    background-color: #3a4452;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    height: 65%;
+    width: 22%;
+    
+}
+
+.bodymass input{
+    height: 35px;
+    width: auto;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.bodymass button{
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    height:35px ;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: white;
+    cursor: pointer;
+}
+
+.container h1{
+   
+    color:navy;
+    margin-bottom: 700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+} 
